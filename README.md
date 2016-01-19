@@ -53,7 +53,7 @@ with GitHub.
    course: UCHI-DB. You should have received an invitation to join via email.
 
    You should now have a repository set up just for your lab solutions.
-   This should be called `homework-solns-2015-<ucnet username>` and located in the UCHI-DB organization.
+   This should be called `hw-answers-<ucnet username>` and located in the UCHI-DB organization.
 
    This is what you'll set up in the next section to allow you to write your
    lab answers and submit them.
@@ -136,7 +136,7 @@ the previous section.
    one. Issue the following command, substituting your ucnet username:
 
    ```bash
-    $ git remote add origin git@github.com:UCHI-DB/homework-solns-2015-<ucnet-username>.git
+    $ git remote add origin git@github.com:UCHI-DB/hw-answers-<ucnet-username>.git
    ```
 
    If you have an error that looks like the following:
@@ -155,7 +155,7 @@ the previous section.
    just issue the following command:
    
    ```bash
-   $ git remote set-url origin git@github.com:UCHI-DB/homework-solns-2015-<ucnet username>.git
+   $ git remote set-url origin git@github.com:UCHI-DB/hw-answers-<ucnet username>.git
    ```
 
    This solution was found from [StackOverflow](http://stackoverflow.com/a/2432799) thanks to
@@ -169,8 +169,8 @@ the previous section.
     $ git remote -v
         upstream git@github.com:UCHI-DB/simple-db-hw.git (fetch)
         upstream git@github.com:UCHI-DB/simple-db-hw.git (push)
-        origin git@github.com:UCHI-DB/homework-solns-2015-<ucnet username>.git (fetch)
-        origin git@github.com:UCHI-DB/homework-solns-2015-<ucnet username>.git (push)
+        origin git@github.com:UCHI-DB/hw-answers-<ucnet username>.git (fetch)
+        origin git@github.com:UCHI-DB/hw-answers-<ucnet username>.git (push)
    ```
 
 4. Let's test it out by doing a push of your master branch to GitHub by issuing
@@ -188,7 +188,7 @@ the previous section.
     Compressing objects: 100% (3/3), done.
     Writing objects: 100% (3/3), 294 bytes | 0 bytes/s, done.
     Total 3 (delta 2), reused 0 (delta 0)
-    To git@github.com:UCHI-DB/homework-solns-2015-joshuad.git   f726472..545a4f0  master -> master
+    To git@github.com:UCHI-DB/hw-answers-joshuad.git   f726472..545a4f0  master -> master
    ```
 
 5. That last command was a bit special and only needs to be run the first time
@@ -282,19 +282,19 @@ You should see something like the following output:
 [master b155ba0] Lab 1
  1 file changed, 1 insertion(+)
 Deleted tag 'lab1' (was b26abd0)
-To git@github.com:UCHI-DB/homework-solns-2015-becca.git
+To git@github.com:UCHI-DB/hw-answers-becca.git
  - [deleted]         lab1
 Counting objects: 11, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (4/4), done.
 Writing objects: 100% (6/6), 448 bytes | 0 bytes/s, done.
 Total 6 (delta 3), reused 0 (delta 0)
-To git@github.com:UCHI-DB/homework-solns-2015-becca.git
+To git@github.com:UCHI-DB/hw-answers-becca.git
    ae31bce..b155ba0  master -> master
 Counting objects: 1, done.
 Writing objects: 100% (1/1), 152 bytes | 0 bytes/s, done.
 Total 1 (delta 0), reused 0 (delta 0)
-To git@github.com:UCHI-DB/homework-solns-2015-becca.git
+To git@github.com:UCHI-DB/hw-answers-becca.git
  * [new tag]         lab1 -> lab1
 ```
 
@@ -338,7 +338,7 @@ If the above command worked for you, you can skip to item 6 below.  If not, subm
 
    Just navigate to your repository and check that your latest commits are on
    GitHub. You should also be able to check 
-   `https://github.com/UCHI-DB/homework-solns-2015-<ucnet username>/tree/lab1`
+   `https://github.com/UCHI-DB/hw-answers-<ucnet username>/tree/lab1`
 
 
 ## <a name="word-of-caution"></a> Word of Caution
