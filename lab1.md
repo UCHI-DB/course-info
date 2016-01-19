@@ -57,7 +57,7 @@ bug fixes, new commits to the HW repo, etc., as bugs and issues are reported.
 **Start by downloading the code for lab 1 from the course GitHub repository by following the 
  instructions [here](https://github.com/UCHI-DB/course-info).**
 
-These instructions are written for Athena or any other Unix-based
+These instructions are written for Ubuntu or any other Unix-based
 platform (e.g., Linux, MacOS, etc.)  Because the code is written in
 Java, it should work under Windows as well, although the directions in this
 document may not apply.
@@ -71,15 +71,7 @@ We have included [Section 1.2](#eclipse) on using the project with Eclipse.
 SimpleDB uses the [Ant build tool](http://ant.apache.org/) to compile the code and run tests.
 Ant is similar to [make](http://www.gnu.org/software/make/manual/), but
 the build file is written in XML and is somewhat better suited to Java code.
-Most modern Linux distributions include Ant. Under Athena,
-it is included in the `sipb` locker, which you can
-get to by typing `add sipb` at the Athena prompt.  Note that
-on some versions of Athena you must also run `add -f java` to set
-the environment correctly for Java programs. See the
-[Athena documentation
-on using Java](http://web.mit.edu/acs/www/languages.html#Java) for more details.
-
-To help you during development, we have provided a set of unit tests in
+Most modern Linux distributions include Ant. To help you during development, we have provided a set of unit tests in
 addition to the end-to-end tests that we use for grading. These are by no means
 comprehensive, and you should not rely on them exclusively to verify the
 correctness of your project.
