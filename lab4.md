@@ -1,7 +1,7 @@
 # 6.830 Lab 4: SimpleDB Transactions
 
 **Assigned: Tuesday, Mar 1, 2016**<br>
-**Due: Thursday, Mar 17, 2016 11:59 AM CDT (NOON NOON NOON)**
+**Due: Thursday, Mar 17, 2016 11:59 PM CDT**
 #NO SLACK DAYS ALLOWED. LAB 4 NOT IN BY SATURDAY 3.19 AT NOON WILL RECEIVE ZERO CREDIT##
 
 
